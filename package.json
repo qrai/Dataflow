@@ -1,0 +1,41 @@
+{
+  "name": "dataflow",
+  "version": "1.0.0",
+  "description": "Data processing in Node.js made multithreaded and type-safe.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "serve": "nodemon",
+    "build": "npx tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qrai/Dataflow.git"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "data",
+    "processing"
+  ],
+  "author": "qrai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qrai/Dataflow/issues"
+  },
+  "homepage": "https://github.com/qrai/Dataflow#readme",
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "nodemon": "^2.0.22",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "ts-transformer-keys": "^0.4.4"
+  }
+}
