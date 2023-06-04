@@ -1,4 +1,5 @@
 import { FlowValidators } from "../core/FlowValidators.type";
+import { IStandard } from "../standards/IStandard";
 import { ValidatorDelegate, ValidatorStrategy } from "../validator/Validator.type";
 import { Step } from "./Step";
 
@@ -21,7 +22,7 @@ export class StepBuilder<T> {
 		return this;
 	}
 
-	public standartizeColumn(columnName: keyof T): this {
+	public standartizeColumn(columnName: keyof T, standard: IStandard<any>): this {
 		return this;
 	}
 
